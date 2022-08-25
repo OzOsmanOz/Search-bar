@@ -1,0 +1,49 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    position: relative;
+}
+
+input{
+   width: 0px;
+   border-radius: 30px;
+   padding: 20px 30px;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   outline: none;
+   transition: 2s all;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    color: gray;
+}
+
+.fa-microphone{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: crimson;
+    
+}
+
+.active{
+    display: none;
+}
+
+.active-width{
+    width: 300px;
+}
+
+::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+}
